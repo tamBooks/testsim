@@ -157,6 +157,8 @@ When you are done, your working directory should look something like this:
 │   ├── ERR2868173_2.fastq.gz
 │   ├── ERR2868174_1.fastq.gz
 │   └── ERR2868174_2.fastq.gz
+├── envs
+│   └── rna-seq.yaml
 ├── log
 │   ├── cutadapt
 │   │   ├── ERR2868172.log
