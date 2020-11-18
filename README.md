@@ -81,6 +81,8 @@ When complete, your pipeline should be able to automatically do the following (l
 - Align the adapter-free reads to the genome (also with star)
 - Generate a report with MultiQC (multiqc in conda)
 
+> Your scripts should automatically process all samples available in the `data` directory.
+
 > Keep in mind that you should only repeat for each sample those commands that
 > analyse samples. There are other, generic commands that should only be run once.
 
