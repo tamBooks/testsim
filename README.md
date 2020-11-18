@@ -86,7 +86,7 @@ When complete, your pipeline should be able to automatically do the following (l
 > Keep in mind that you should only repeat for each sample those commands that
 > analyse samples. There are other, generic commands that should only be run once.
 
-> **This may require modifying the provided script to analyse samples and moving part of it somewhere else.**
+> **This may require modifying the provided sample-analysing script and moving part of it somewhere else.**
 
 ## Once you are done
 
