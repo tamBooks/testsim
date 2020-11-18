@@ -17,19 +17,19 @@ on setting up conda and bioconda](http://bioconda.github.io/user/install.html).
 ### Git repository
 
 Your working directory will be under git control. You will first copy this repository
-to your GitHub account, and then work on this new copy using it as your remote.
+to your GitLab account, and then work on this new copy using it as your remote.
 
 #### Forking this repository
 
 You should start by forking this repository. A git **fork** creates a copy
-of the repository *on your own GitHub account*. This copy will become the remote
+of the repository *on your own GitLab account*. This copy will become the remote
 repository where you will eventually save your work.
 
-You can find the fork button on the top right corner of the repository webpage on GitHub.
+You can find the fork button on the top right corner of the repository webpage on GitLab.
 
 Once you fork the project, you will have a copy of the repository on a new URL:
 
-`https://github.com/<your_username>/testsim`
+`https://gitlab.com/<your_username>/testsim`
 
 #### Adding your instructor as a collaborator
 
@@ -38,8 +38,8 @@ so that she/he can interact with you during the development.
 
 #### Getting help
 
-You can now ask for help from your instructor by creating a new issue in the GitHub
-repository (click on the "Issues" tab on the top left of the GitHub repo page),
+You can now ask for help from your instructor by creating a new issue in the GitLab
+repository (click on the "Issues" tab on the top left of the GitLab repo page),
 adding a relevant title and description, **and assigning the issue to your instructor**.
 
 You can assign the issue by clicking on the "Assignees" title on the top right.
