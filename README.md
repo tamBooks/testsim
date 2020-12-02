@@ -1,5 +1,7 @@
 # RNA-seq analysis of E. coli with over-expressed DNA-damage handling proteins
 
+[[_TOC_]]
+
 ## Introduction
 
 In this project, you will be analysing RNA-seq data from Escherichia coli bacteria.
