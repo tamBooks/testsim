@@ -41,7 +41,7 @@ page.
 #### Getting help
 
 You can now ask for help from your instructor by creating a new issue in the GitLab
-repository (click on the "Issues" tab on the top left of the GitLab repo page),
+repository (click on the "Issues" tab on the left of the GitLab repo page),
 adding a relevant title and description, **and assigning the issue to your instructor**.
 
 You can assign the issue by clicking on the "Assignees" title on the top right.
@@ -50,7 +50,7 @@ You can assign the issue by clicking on the "Assignees" title on the top right.
 
 #### Cloning your fork and starting work
 
-You should now **clone** this new repository to obtain a local copy in your machine.
+You should now **clone** your new repository to obtain a local copy on your machine.
 
 You can then start working on your local copy of the repository.
 
