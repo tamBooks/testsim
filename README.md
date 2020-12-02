@@ -34,7 +34,9 @@ Once you fork the project, you will have a copy of the repository on a new URL:
 #### Adding your instructor as a collaborator
 
 You should now add your instructor as a collaborator in your copy of the repository,
-so that she/he can interact with you during the development.
+so that she/he can interact with you during the development. You can do this by adding
+his username in the "Members" section on vertical menu bar on the left of the project
+page.
 
 #### Getting help
 
