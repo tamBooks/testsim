@@ -9,6 +9,14 @@ mv GCF_000005845.2_ASM584v2_genomic.fna.gz res/genome/
 mv res/genome/GCF_000005845.2_ASM584v2_genomic.fna.gz res/genome/ecoli.fasta.gz  
 gunzip res/genome/ecoli.fasta.gz
 
+# MultiQC 
+echo
+echo "Running MultiQC..."
+mkdir -p out/multiqc
+multiqc -o out/multiqc  data/*.fastq.gz
+multiqc -o log/multiqc .
+echo
+
 if [ "$#" -eq 1 ]
 then
     sampleid=$1
@@ -28,10 +36,6 @@ then
     echo "Running STAR alignment..."
     mkdir -p out/star/${sampleid}
     STAR --runThreadN 4 --genomeDir res/genome/star_index/ --readFilesIn out/cutadapt/${sampleid}_1.trimmed.fastq.gz out/cutadapt/${sampleid}_2.trimmed.fastq.gz --readFilesCommand zcat --outFileNamePrefix out/star/${sampleid}/
-    echo
-    echo "Running MultiQC..."
-    mkdir -p out/multiqc
-    multiqc -t 7 -o out/multiqc  data/*.fastq.gz
     echo
 else
     echo "Usage: $0 <sampleid>"
